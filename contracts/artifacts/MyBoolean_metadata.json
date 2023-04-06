@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyBoolean.sol": "MyBoolean"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyBoolean.sol": {
+			"keccak256": "0xe4896a67f445b1011eb76b0ae5790675236f056e0490d5440ff68034348536b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7dbef6c20a60fd80bd2868918e67adcced2a2eccfb47c4124eaa7f4504ce66f",
+				"dweb:/ipfs/QmcYKSWighCna43dg3muE1xpQtN2GLsCfUNDj882eFLXLU"
+			]
+		}
+	},
+	"version": 1
+}
