@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
+					}
+				],
+				"name": "upadteString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SamplePayable.sol": "SamplePayable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SamplePayable.sol": {
+			"keccak256": "0x37946d852bd902fce1a1838d317a41e03c4fb78556037876027890bc51cd22cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5e4d5365f72d2ea95e4ce569024ce68806867139fdf2187ab427bfde05edb59",
+				"dweb:/ipfs/Qmen5CSoGssN4qQQ7EcFP2TcAWkMQdEtGjuAfAbtg1zmaS"
+			]
+		}
+	},
+	"version": 1
+}
